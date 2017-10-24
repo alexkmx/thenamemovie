@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Cantata+One');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lobster');
+
+body {
+  background-color: red;
+}
+
+.App {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  background: linear-gradient(#FFDA63, #FFB940);
+  font-size: 1.5em;
+  font-family: 'Lobster', cursive;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Cita {
+
+  width: 40%;
+  border-radius: 10%;
+  opacity: 0.6;
+  font-family: 'Cantata One', cursive;
+  font-size: 18px;
+  text-align: center;
+  background-color: white;
+  margin:0 auto ;
+}
+
+.nota {
+  font-family: 'Indie Flower', cursive;
+}
